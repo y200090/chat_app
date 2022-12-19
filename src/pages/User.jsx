@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 
 const User = () => {
-  
-  
   return (
-    <div className='h-screen w-screen'>
+    <div className='relative h-screen w-screen'>
       <div className='fixed h-full w-16 bg-red-300'>
         <Navbar />
       </div>
